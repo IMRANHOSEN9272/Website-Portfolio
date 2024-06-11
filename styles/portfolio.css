@@ -42,8 +42,9 @@ nav {
     top: 47px;
     color: #181818;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 100px;
     line-height: 61px;
+    
 
 }
 
@@ -122,6 +123,7 @@ main section {
     border-radius: 10px;
     padding: 50px 180px;
     background-color: antiquewhite;
+
 }
 
 .about-info-container {
@@ -135,7 +137,7 @@ main section {
 
 .section-title {
 
-    font-weight: 400;
+    font-weight: 800;
     font-size: 30px;
     font-display: bold;
     line-height: 30px;
