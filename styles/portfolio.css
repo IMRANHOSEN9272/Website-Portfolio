@@ -76,14 +76,13 @@ nav a {
     justify-content: space-between;
 
 
-    .banner-content {
+.banner-content {
         max-width: 500px;
 
     }
 }
 
 .banner .profile-pic {
-
     width: 584px;
     height: 676px;
 }
@@ -108,17 +107,17 @@ nav a {
 
 /* main section styles   */
 .main{
-    background-color:blanchedalmond;
+    
     margin: 50px auto ;
     max-width: 1140px;
 }
 
 /* about section style */
 .about {
-
     margin-top: 130px 0px ;
     border-radius: 10px;
     padding: 50px 180px;
+    background-color: antiquewhite;
 }
 
 .about-info-container{
@@ -136,6 +135,7 @@ nav a {
     font-display: bold;
     line-height: 30px;
     text-align: center;
+    margin-top: 52px;
 
 }
 
@@ -143,5 +143,8 @@ nav a {
     text-align: center;
     font-size: 18px;
     font-style: normal;
-   
+}
+
+#what-i-do-description{
+    padding: 30px 150px;
 }
