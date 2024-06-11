@@ -184,8 +184,26 @@ main section {
     font-size: 30px;
 }
 .resume-container{
-    justify-content: space-around;
+    display: flex;
+    gap: 50px;
+    
 }
+.resume-container hr{
+    margin: 5px;
+}
+
 .resume-column-title{
    
+}
+.resume-item-institute,.resume-item-description{
+    color: #757575;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700px;
+    color: #474747;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
