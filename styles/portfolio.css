@@ -76,7 +76,7 @@ nav a {
     justify-content: space-between;
 
 
-.banner-content {
+    .banner-content {
         max-width: 500px;
 
     }
@@ -106,25 +106,30 @@ nav a {
 }
 
 /* main section styles   */
-.main{
-    
-    margin: 50px auto ;
+.main {
+
+    margin: 50px auto;
     max-width: 1140px;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 /* about section style */
 .about {
-    margin-top: 130px 0px ;
+    margin-top: 130px 0px;
     border-radius: 10px;
     padding: 50px 180px;
     background-color: antiquewhite;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
 
@@ -145,6 +150,42 @@ nav a {
     font-style: normal;
 }
 
-#what-i-do-description{
+
+/* skills related style */
+#what-i-do-description {
     padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 35px;
+}
+
+.skills {
+
+    padding: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-description {
+    color: darkcyan;
+
+}
+
+/* Resume related styles */
+
+
+
+.resume-column-title {
+    color:darkslategray;
+    font-weight: 700;
+    font-size: 30px;
+}
+.resume-container{
+    justify-content: space-around;
+}
+.resume-column-title{
+   
 }
